@@ -4,8 +4,9 @@
 # But not these specific files and directories
 !.gitignore
 
-!readme.md
+!funding.yml
 !license.md
+!readme.md
 
 !config/
 !config/yosbr/
