@@ -16,7 +16,7 @@ features:
   # Note that just like in vanilla, experience orbs will still need to be of the same size to actually merge.
   xp-merge-fraction: 1
   # The radius in blocks that experience orbs will merge at.
-  xp-merge-radius: 5
+  xp-merge-radius: 0.5
   # The radius in blocks that items will merge at.
   item-merge-radius: 0.5
   lobotomize-villagers:
