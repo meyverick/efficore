@@ -1,0 +1,22 @@
+# Ignore everything
+*
+
+# But not these specific files and directories
+!.gitignore
+
+!readme.md
+!license.md
+
+!config/
+!config/yosbr/
+!config/yosbr/**
+
+!mods
+!mods/*
+
+!resources
+!resources/**
+
+# And finally hide files and directories.
+
+config/yosbr/options.txt
