@@ -1,9 +1,11 @@
 {
-  "update_rate": 600,
+  "update_rate": 300,
   "max_view_distance": 20,
   "min_view_distance": 7,
   "max_sim_distance": 12,
-  "min_sim_distance": 3,
+  "min_sim_distance": 4,
+  "max_chunk_ticking_distance": 11,
+  "min_chunk_ticking_distance": 3,
   "allow_on_client": false,
   "broadcast_to_ops": false,
   "broadcast_changes_default": "NONE",
@@ -12,95 +14,68 @@
   "broadcast_lock": [],
   "rules": [
     {
-      "name": "High Memory: Reduce Simulation Distance",
+      "name": "High Memory: Reduce VD",
       "type": "MEMORY",
-      "min": 85,
-      "target": "SIMULATION",
-      "step": -2,
-      "update_rate": 150
-    },
-    {
-      "name": "Very High Memory: Aggressive Sim Distance Reduction",
-      "type": "MEMORY",
-      "min": 95,
-      "target": "SIMULATION",
-      "step": -3,
-      "update_rate": 100
-    },
-    {
-      "name": "Low Memory: Increase Simulation Distance",
-      "type": "MEMORY",
-      "max": 70,
-      "target": "SIMULATION",
-      "step": 1,
-      "update_rate": 600
-    },
-    {
-        "name": "Memory Normal: No Change",
-        "type": "MEMORY",
-        "min": 70,
-        "max": 85,
-        "target": "SIMULATION",
-        "step": 0,
-        "update_rate": 300
-    },
-    {
-      "name": "Very High MSPT: Aggressive View Distance Reduction",
-      "type": "MSPT",
-      "min": 60,
+      "min": 86,
       "target": "VIEW",
-      "step": -2,
-      "update_rate": 150
+      "step": -4,
+      "update_rate": 4800
     },
     {
-      "name": "High MSPT: Reduce View Distance",
+      "name": "Low Memory: Increase VD",
+      "type": "MEMORY",
+      "max": 69,
+      "target": "VIEW",
+      "step": 1,
+      "update_rate": 1200
+    },
+    {
+      "name": "High MSPT: Reduce VD",
       "type": "MSPT",
-      "min": 50,
-      "max": 60,
+      "min": 52,
       "target": "VIEW",
       "step": -1,
-      "update_rate": 300
-    },
-     {
-      "name": "MSPT Normal: No change",
-      "type": "MSPT",
-      "min": 35,
-      "max": 50,
-      "target": "VIEW",
-      "step": 0
+      "update_rate": 60
     },
     {
-      "name": "Low MSPT: Increase View Distance",
+      "name": "High MSPT: Reduce SD",
       "type": "MSPT",
-      "max": 35,
+      "min": 52,
+      "target": "SIMULATION",
+      "step": -2,
+      "update_rate": 120
+    },
+    {
+      "name": "High MSPT: Reduce TD",
+      "type": "MSPT",
+      "min": 52,
+      "target": "CHUNK_TICKING",
+      "step": -1,
+      "update_rate": 60
+     },
+    {
+      "name": "Low MSPT: Increase VD",
+      "type": "MSPT",
+      "max": 48,
       "target": "VIEW",
       "step": 1,
       "update_rate": 600
     },
     {
-        "name": "High MSPT: Reduce Simulation Distance",
-        "type": "MSPT",
-        "min": 55,
-        "target": "SIMULATION",
-        "step": -1,
-        "update_rate": 200
+      "name": "Low MSPT: Increase SD",
+      "type": "MSPT",
+      "max": 48,
+      "target": "SIMULATION",
+      "step": 2,
+      "update_rate": 1200
     },
     {
-        "name": "Low MSPT: Increase Simulation Distance",
-        "type": "MSPT",
-        "max": 45,
-        "target": "SIMULATION",
-        "step": 1,
-        "update_rate": 600
-    },
-    {
-        "name": "MSPT Sim Normal: No Change",
-        "type": "MSPT",
-        "min": 45,
-        "max": 55,
-        "target": "SIMULATION",
-        "step": 0,
-        "update_rate": 300
-     }
+      "name": "Low MSPT: Increase TD",
+      "type": "MSPT",
+      "max": 48,
+      "target": "CHUNK_TICKING",
+      "step": 1,
+      "update_rate": 600
+    }
   ]
 }
