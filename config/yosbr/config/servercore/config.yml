@@ -39,8 +39,47 @@ dynamic:
   # ► increment = The amount the setting will be increased or decreased by.
   # ► interval = The amount of seconds between each check to increase or decrease.
   dynamic-settings:
+    - setting: 'CHUNK_TICK_DISTANCE'
+      max: 10
+      min: 6
+      increment: 1
+      interval: 15
 
+    - setting: 'MOBCAP_PERCENTAGE'
+      max: 100
+      min: 50
+      increment: 10
+      interval: 15
 
+    - setting: 'SIMULATION_DISTANCE'
+      max: 10
+      min: 6
+      increment: 1
+      interval: 15
+
+    - setting: 'CHUNK_TICK_DISTANCE'
+      max: 6
+      min: 2
+      increment: 1
+      interval: 15
+
+    - setting: 'MOBCAP_PERCENTAGE'
+      max: 50
+      min: 30
+      increment: 10
+      interval: 15
+
+    - setting: 'SIMULATION_DISTANCE'
+      max: 6
+      min: 2
+      increment: 1
+      interval: 15
+
+    - setting: 'VIEW_DISTANCE'
+      max: 10
+      min: 5
+      increment: 1
+      interval: 150
 
 # A special mobcap that only affects the breeding of animals and villagers.
 breeding-cap:
@@ -189,6 +228,89 @@ activation-range:
   #   - Typeof class matching   |   Uses the 'typeof:' prefix.          |  'typeof:monster' matches all monsters.
   # ► Available typeof classes: mob, monster, raider, neutral, ambient, animal, water_animal, flying_animal, flying_monster, villager, projectile.
   custom-activation-types:
+    - name: 'raider'
+      activation-range: 48
+      tick-interval: 20
+      wakeup-interval: 20
+      extra-height-up: true
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:raider'
 
+    - name: 'water'
+      activation-range: 16
+      tick-interval: 20
+      wakeup-interval: 60
+      extra-height-up: false
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:water_animal'
 
+    - name: 'villager'
+      activation-range: 16
+      tick-interval: 20
+      wakeup-interval: 30
+      extra-height-up: false
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:villager'
 
+    - name: 'zombie'
+      activation-range: 16
+      tick-interval: 20
+      wakeup-interval: 20
+      extra-height-up: true
+      extra-height-down: false
+      entity-matcher:
+        - 'minecraft:zombie'
+        - 'minecraft:husk'
+
+    - name: 'monster-below'
+      activation-range: 32
+      tick-interval: 20
+      wakeup-interval: 20
+      extra-height-up: true
+      extra-height-down: true
+      entity-matcher:
+        - 'minecraft:creeper'
+        - 'minecraft:slime'
+        - 'minecraft:magma_cube'
+        - 'minecraft:hoglin'
+
+    - name: 'flying-monster'
+      activation-range: 48
+      tick-interval: 20
+      wakeup-interval: 20
+      extra-height-up: true
+      extra-height-down: false
+      entity-matcher:
+        - 'minecraft:ghast'
+        - 'minecraft:phantom'
+
+    - name: 'monster'
+      activation-range: 32
+      tick-interval: 20
+      wakeup-interval: 20
+      extra-height-up: true
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:monster'
+
+    - name: 'animal'
+      activation-range: 16
+      tick-interval: 20
+      wakeup-interval: 60
+      extra-height-up: false
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:animal'
+        - 'typeof:ambient'
+
+    - name: 'creature'
+      activation-range: 24
+      tick-interval: 20
+      wakeup-interval: 30
+      extra-height-up: false
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:mob'
