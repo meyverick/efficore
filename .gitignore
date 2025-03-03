@@ -3,6 +3,7 @@
 
 # But not these specific files and directories
 !.gitignore
+!changelog.md
 !funding.yml
 !icon.png
 !license.md
