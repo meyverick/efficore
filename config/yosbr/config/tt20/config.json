@@ -8,7 +8,7 @@
   "eating-acceleration": true,
   "portal-acceleration": true,
   "sleeping-acceleration": true,
-  "server-watchdog": true,
+  "server-watchdog": false,
   "singleplayer-warning": true,
   "time-acceleration": true,
   "random-tickspeed-acceleration": true,
