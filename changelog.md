@@ -1,5 +1,5 @@
 # 1.1.5 -
-- 🛠️ `ADJ` Watchdog tick compensation temporarily disabled due to an error. (TT20)
+
 
 # 1.1.4 - March 03, 2025
 - 🛠️ `ADJ` Increased item merge range from 2 to 3 blocks. (Get It Together, Drops!)
