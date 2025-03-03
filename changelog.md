@@ -1,5 +1,5 @@
-# 1.1.4 - 
-- 🛠️ `ADJ` Increased item merge range from 2 to 3 blocks.
+# 1.1.4 - March 03, 2025
+- 🛠️ `ADJ` Increased item merge range from 2 to 3 blocks. (Get It Together, Drops!)
 - 🛠️ `ADJ` Updated project dependencies.
 
 # (TEMPLATE) 1.2.3 - January 1, 1970
