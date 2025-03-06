@@ -1,3 +1,12 @@
+# 1.1.6 - March 6, 2025
+- 🛠️ `ADJ` Cleaned up config files to only include modified values.
+- 🌟 `ADD` Added [TabTPS](https://modrinth.com/plugin/tabtps) mod, allowing users to view server performance information.
+- 🌟 `ADD` Added [MixinTrace](https://modrinth.com/mod/mixintrace) mod for more informative crash reports.
+- 🌟 `ADD` Added [Player Statistics](https://modrinth.com/mod/player-statistics), providing insights into player behavior.
+- 🌟 `ADD` Added [Better Fabric Console](https://modrinth.com/mod/better-fabric-console) mod for an enhanced console experience.
+- 🛠️ `ADJ` Improved deobfuscation of stack traces in crash reports using Carpet rules.
+- 🛠️ `ADJ` Updated server properties for enhanced performance and security.
+
 # 1.1.5 - March 5, 2025
 - 🌟 `ADD` Added default settings to server.properties to mitigate potential malicious activity.
 - 🛠️ `ADJ` Improved default gameplay experience through adjusted server.properties.
