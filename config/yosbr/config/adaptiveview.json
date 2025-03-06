@@ -1,17 +1,11 @@
 {
   "update_rate": 300,
   "max_view_distance": 20,
-  "min_view_distance": 7,
+  "min_view_distance": 4,
   "max_sim_distance": 12,
   "min_sim_distance": 4,
   "max_chunk_ticking_distance": 11,
   "min_chunk_ticking_distance": 3,
-  "allow_on_client": false,
-  "broadcast_to_ops": false,
-  "broadcast_changes_default": "NONE",
-  "broadcast_changes": [],
-  "broadcast_lock_default": "OPS",
-  "broadcast_lock": [],
   "rules": [
     {
       "name": "High Memory: Reduce VD",

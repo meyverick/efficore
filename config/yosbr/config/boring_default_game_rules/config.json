@@ -1,5 +1,4 @@
 {
-	"$schema": "config.schema.json",
 	"default_game_rules": {
 		"doFireTick": false,
 		"disableElytraMovementCheck": true,
