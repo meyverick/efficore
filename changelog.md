@@ -1,3 +1,11 @@
+# 1.1.7 (2025-03-06)
+
+- 🛠️ **Changes**
+    * Updated various mods to their latest versions. 
+
+- 🩹 **Fixes**
+    * Removed rate-limit from `server.properties` that was kicking players from the server.
+
 # 1.1.6 - March 6, 2025
 - 🛠️ `ADJ` Cleaned up config files to only include modified values.
 - 🌟 `ADD` Added [TabTPS](https://modrinth.com/plugin/tabtps) mod, allowing users to view server performance information.
@@ -20,13 +28,3 @@
 # 1.1.4 - March 3, 2025
 - 🛠️ `ADJ` Increased item merge range from 2 to 3 blocks. (Get It Together, Drops!)
 - 🛠️ `ADJ` Updated project dependencies.
-
------
-
-# (TEMPLATE) 1.2.3 - January 1, 1970
-## Mage
-### Lightning Ball
-- 🌟 `ADD` Added a burning effect that deals 10 damage per second.
-- 🛠️ `ADJ` Reduced base damage from 10 to 5.
-- 🗑️ `DEL` Removed the slowing effect.
-- 🩹 `FIX` Fixed a bug where damage was ignored in some conditions.
