@@ -1,0 +1,4 @@
+{
+	"chunk_compression":"lz4",
+	"block_updates_compression":"lz4"
+}
