@@ -1,3 +1,7 @@
-This project is protected by the [Berne Convention](https://www.wipo.int/treaties/en/ip/berne/summary_berne.html) and released under the [ISC License](https://opensource.org/license/isc-license-txt) licence. Copyright protection lasts for the life of the author plus an additional 70 years.
+Copyrights lasts for the life of the author plus an additional 70 years.
 
-Accordingly, the copyright to the creative elements of this project, including but not limited to the textual and visual components, is vested in the author. While the ISC License grants you the non-exclusive right to use, modify, and distribute the project's source code, the direct reproduction of the creative content without explicit authorization is prohibited. In essence, the source code may be utilized at your discretion, provided that due regard is given to the author's creative effort by refraining from the unauthorized duplication of the textual and visual elements.
+This project is protected by the [Berne Convention](https://www.wipo.int/treaties/en/ip/berne/summary_berne.html) and licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) (the "License").
+
+You may not use this file except in compliance with copyrights.
+
+Unless required by applicable law or agreed to in writing, project distributed under the License is distributed on an **"as is" basis, without warranties or conditions of any kind**, either express or implied.
