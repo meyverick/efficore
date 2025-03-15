@@ -1,3 +1,20 @@
+> *All notable changes to this project will be documented in this file.*
+>
+> *The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),*
+> *and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).*
+
+# 1.1.8 (2025-03-15)
+
+- 🌟 **Additions:**
+    - Added [Debugify](https://modrinth.com/mod/debugify) mod. (no config)
+    - Added [Faster Random](https://modrinth.com/mod/faster-random) mod. (no config)
+    - Added [Annuus](https://modrinth.com/mod/annuus) mod. (configuration added)
+    - Added [MC-258859](https://modrinth.com/mod/mc-258859) mod. (no config)
+
+- 🛠️ **Changes:**
+    - Updated various mods to their latest versions.
+    - Changed the project license from ISC to Apache-2.0.
+
 # 1.1.7 (2025-03-06)
 
 - 🛠️ **Changes**
