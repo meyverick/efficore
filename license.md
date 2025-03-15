@@ -4,4 +4,4 @@ This project is protected by the [Berne Convention](https://www.wipo.int/treatie
 
 You may not use this file except in compliance with copyrights.
 
-Unless required by applicable law or agreed to in writing, project distributed under the License is distributed on an **"as is" basis, without warranties or conditions of any kind**, either express or implied.
+Unless required by applicable law or agreed to in writing, this project is distributed **"as is" basis, without warranties or conditions of any kind**, either express or implied.
